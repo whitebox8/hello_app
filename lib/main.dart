@@ -10,60 +10,64 @@ class MiApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: const PantallaEjemplo(),
+      debugShowCheckedModeBanner: false,
+      home: const HomeScreen(),
     );
   }
 }
 
-class PantallaEjemplo extends StatelessWidget {
-  const PantallaEjemplo({super.key});
+class HomeScreen extends StatelessWidget {
+  const HomeScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Widgets básicos')),
-      body: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
+      body: Stack(
         children: [
-          // TEXT
-          const Text(
-            'Ejemplo de Widgets',
-            style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
-          ),
-
-          const SizedBox(height: 20),
-
-          // ROW
-          Row(
-            mainAxisAlignment: MainAxisAlignment.spaceAround,
-            children: const [
-              Text('A'),
-              Text('B'),
-              Text('C'),
-            ],
-          ),
-
-          const SizedBox(height: 20),
-
-          // CONTAINER
+          // 🖼️ IMAGEN DE FONDO
           Container(
-            padding: const EdgeInsets.all(10),
-            color: Colors.orange,
-            child: const Text('Container'),
+            decoration: const BoxDecoration(
+              image: DecorationImage(
+                image: NetworkImage(
+                  'https://images.unsplash.com/photo-1506744038136-46273834b3fb',
+                ),
+                fit: BoxFit.cover,
+              ),
+            ),
           ),
 
-          const SizedBox(height: 20),
+          // 🌑 CAPA OSCURA (para que el texto se vea mejor)
+          Container(
+            color: Colors.black.withOpacity(0.5),
+          ),
 
-          // STACK
-          Stack(
-            alignment: Alignment.center,
-            children: [
-              Container(width: 100, height: 100, color: Colors.blue),
-              const Text(
-                'Stack',
-                style: TextStyle(color: Colors.white),
-              ),
-            ],
+          // 📱 CONTENIDO
+          Center(
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: const [
+                // NOMBRE DE LA APP
+                Text(
+                  'Diseño de aplicaciones móviles',
+                  style: TextStyle(
+                    fontSize: 32,
+                    color: Colors.white,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+
+                SizedBox(height: 20),
+
+                // MENSAJE
+                Text(
+                  '3.5 Home screen con Layouts',
+                  style: TextStyle(
+                    fontSize: 18,
+                    color: Colors.white70,
+                  ),
+                ),
+              ],
+            ),
           ),
         ],
       ),
