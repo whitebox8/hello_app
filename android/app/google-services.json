@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "641079414866",
-    "project_id": "pokedex-375c8",
-    "storage_bucket": "pokedex-375c8.firebasestorage.app"
+    "project_number": "1036471575814",
+    "project_id": "cineapp-flutter",
+    "storage_bucket": "cineapp-flutter.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:641079414866:android:59e053e2f40f4ea5a50f8b",
+        "mobilesdk_app_id": "1:1036471575814:android:bcb9304b50562b5f7d2a87",
         "android_client_info": {
           "package_name": "com.example.hello_app"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyAb_PVl7Naa-RAxI6UTIM0mwDGwdULtTug"
+          "current_key": "AIzaSyACQgerKCfkPGDu8Jm8bRVNgEBZ8yH2Iak"
         }
       ],
       "services": {

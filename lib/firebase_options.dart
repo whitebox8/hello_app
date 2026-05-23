@@ -41,46 +41,49 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyBeQTirVPt9_gtM4rDBxQtEA06V4l_yNgQ',
-    appId: '1:641079414866:web:c6d2c50299989c97a50f8b',
-    messagingSenderId: '641079414866',
-    projectId: 'pokedex-375c8',
-    authDomain: 'pokedex-375c8.firebaseapp.com',
-    storageBucket: 'pokedex-375c8.firebasestorage.app',
+    apiKey: 'AIzaSyDjOdqCwF4-ajfzRddHv0oc3GLMlJiLOk0',
+    appId: '1:1036471575814:web:ebdda8b26e0f29b37d2a87',
+    messagingSenderId: '1036471575814',
+    projectId: 'cineapp-flutter',
+    authDomain: 'cineapp-flutter.firebaseapp.com',
+    storageBucket: 'cineapp-flutter.firebasestorage.app',
+    measurementId: 'G-RKM5REGP9L',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyAb_PVl7Naa-RAxI6UTIM0mwDGwdULtTug',
-    appId: '1:641079414866:android:59e053e2f40f4ea5a50f8b',
-    messagingSenderId: '641079414866',
-    projectId: 'pokedex-375c8',
-    storageBucket: 'pokedex-375c8.firebasestorage.app',
+    apiKey: 'AIzaSyACQgerKCfkPGDu8Jm8bRVNgEBZ8yH2Iak',
+    appId: '1:1036471575814:android:bcb9304b50562b5f7d2a87',
+    messagingSenderId: '1036471575814',
+    projectId: 'cineapp-flutter',
+    storageBucket: 'cineapp-flutter.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyCKsBpKE-5LrguOQcFS4wiQtbKC2S2tMXA',
-    appId: '1:641079414866:ios:fc608ed20586bfb6a50f8b',
-    messagingSenderId: '641079414866',
-    projectId: 'pokedex-375c8',
-    storageBucket: 'pokedex-375c8.firebasestorage.app',
+    apiKey: 'AIzaSyA4Y2AYL9IRjzyMl9A9zhItL9EFkoDMp4o',
+    appId: '1:1036471575814:ios:18fb843351bd87ae7d2a87',
+    messagingSenderId: '1036471575814',
+    projectId: 'cineapp-flutter',
+    storageBucket: 'cineapp-flutter.firebasestorage.app',
     iosBundleId: 'com.example.helloApp',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyCKsBpKE-5LrguOQcFS4wiQtbKC2S2tMXA',
-    appId: '1:641079414866:ios:fc608ed20586bfb6a50f8b',
-    messagingSenderId: '641079414866',
-    projectId: 'pokedex-375c8',
-    storageBucket: 'pokedex-375c8.firebasestorage.app',
+    apiKey: 'AIzaSyA4Y2AYL9IRjzyMl9A9zhItL9EFkoDMp4o',
+    appId: '1:1036471575814:ios:18fb843351bd87ae7d2a87',
+    messagingSenderId: '1036471575814',
+    projectId: 'cineapp-flutter',
+    storageBucket: 'cineapp-flutter.firebasestorage.app',
     iosBundleId: 'com.example.helloApp',
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyBeQTirVPt9_gtM4rDBxQtEA06V4l_yNgQ',
-    appId: '1:641079414866:web:043e7ff3c50a893ba50f8b',
-    messagingSenderId: '641079414866',
-    projectId: 'pokedex-375c8',
-    authDomain: 'pokedex-375c8.firebaseapp.com',
-    storageBucket: 'pokedex-375c8.firebasestorage.app',
+    apiKey: 'AIzaSyDjOdqCwF4-ajfzRddHv0oc3GLMlJiLOk0',
+    appId: '1:1036471575814:web:d866d898cbf6aa057d2a87',
+    messagingSenderId: '1036471575814',
+    projectId: 'cineapp-flutter',
+    authDomain: 'cineapp-flutter.firebaseapp.com',
+    storageBucket: 'cineapp-flutter.firebasestorage.app',
+    measurementId: 'G-RVB724KXW7',
   );
+
 }
